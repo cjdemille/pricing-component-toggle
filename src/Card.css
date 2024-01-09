@@ -1,0 +1,88 @@
+html{
+    font-size: 62.5%;
+}
+
+
+.Card{
+    padding: 3rem;
+    background-color: white;
+    border-radius:1rem;
+    margin:3rem auto;
+    width:80%;
+}
+.Card:nth-of-type(even){
+    background: linear-gradient(#A2A7F0, #696EDD );
+}
+.Card__title{
+    font-size: 1.8rem;
+    text-align: center;
+    color:#6E728E;
+}
+.Card:nth-of-type(even) .Card__title, 
+.Card:nth-of-type(even) .Card__price-box,
+.Card:nth-of-type(even) .Card__list
+
+{
+   color:#fff;
+}
+.Card:nth-of-type(even) .Card__list-item{
+    border-top:1px solid #fff;
+}
+.Card:nth-of-type(even) .Card__list-item:last-child{
+    border-bottom:1px solid #fff;
+}
+
+.Card:nth-of-type(even) .btn{
+    background: #fff;
+    color:#6D72DE;
+}
+
+.dollar-sign{
+    font-size:4rem;
+    letter-spacing: -1.2px;
+}
+.Card__price{
+    font-size:7.2rem;
+    line-height: 7.1rem;
+    letter-spacing: -2.16px;
+}
+.Card__price-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#4A4D60;
+    margin:2rem auto;
+}
+
+.Card__list{
+    list-style: none;
+    font-size:1.5rem;
+    line-height: 2.8rem;
+    color: #6E728E;
+    text-align: center;
+    padding-left: 0;
+}
+
+.Card__list-item{
+    width:100%;
+    padding:1rem 0;
+    border-top:1px solid #979797;
+}
+.Card__list-item:last-child{
+
+    border-bottom:1px solid #979797;
+}
+
+.btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 1.3rem;
+    letter-spacing: 1.39px;
+    background: linear-gradient(#A2A7F0, #696EDD );
+    margin-top:3rem;
+    display: block;
+    padding:1.5rem 2rem;
+    text-align: center;
+    border-radius: .7rem;
+}
